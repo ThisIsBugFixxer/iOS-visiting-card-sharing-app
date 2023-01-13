@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F6C1B5827EA57F5005CDCC4 /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C1B5727EA57F5005CDCC4 /* secondView.swift */; };
+		5F80DEA227E341FD000DC7CD /* Drawer in Frameworks */ = {isa = PBXBuildFile; productRef = 5F80DEA127E341FD000DC7CD /* Drawer */; };
+		5F80DEA727E3A0DF000DC7CD /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 5F80DEA627E3A0DF000DC7CD /* CodeScanner */; };
+		5F80DEA927E3A0FB000DC7CD /* qrCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F80DEA827E3A0FB000DC7CD /* qrCodeScanner.swift */; };
+		5FABC8E527EEF6D100EC69BB /* CardSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FABC8E427EEF6D100EC69BB /* CardSmallView.swift */; };
+		5FABC8E927EF287700EC69BB /* headerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FABC8E827EF287700EC69BB /* headerView.swift */; };
+		5FABC8EB27EF2FA900EC69BB /* scannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FABC8EA27EF2FA900EC69BB /* scannerView.swift */; };
+		5FABC8ED27EF30CD00EC69BB /* drawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FABC8EC27EF30CD00EC69BB /* drawerView.swift */; };
+		5FB572B627E320450008A6C7 /* NextGenCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB572B527E320450008A6C7 /* NextGenCardsApp.swift */; };
+		5FB572B827E320450008A6C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB572B727E320450008A6C7 /* ContentView.swift */; };
+		5FB572BA27E3204A0008A6C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB572B927E3204A0008A6C7 /* Assets.xcassets */; };
+		5FB572BD27E3204A0008A6C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB572BC27E3204A0008A6C7 /* Preview Assets.xcassets */; };
+		5FB572BF27E3204A0008A6C7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB572BE27E3204A0008A6C7 /* Persistence.swift */; };
+		5FB572C227E3204A0008A6C7 /* NextGenCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FB572C027E3204A0008A6C7 /* NextGenCards.xcdatamodeld */; };
+		5FC352CD27ECEA3400F9CB7E /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC352CC27ECEA3400F9CB7E /* cardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F6C1B5727EA57F5005CDCC4 /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
+		5F80DEA827E3A0FB000DC7CD /* qrCodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrCodeScanner.swift; sourceTree = "<group>"; };
+		5FABC8E427EEF6D100EC69BB /* CardSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSmallView.swift; sourceTree = "<group>"; };
+		5FABC8E827EF287700EC69BB /* headerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headerView.swift; sourceTree = "<group>"; };
+		5FABC8EA27EF2FA900EC69BB /* scannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scannerView.swift; sourceTree = "<group>"; };
+		5FABC8EC27EF30CD00EC69BB /* drawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawerView.swift; sourceTree = "<group>"; };
+		5FB572B227E320450008A6C7 /* NextGenCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextGenCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB572B527E320450008A6C7 /* NextGenCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextGenCardsApp.swift; sourceTree = "<group>"; };
+		5FB572B727E320450008A6C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5FB572B927E3204A0008A6C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FB572BC27E3204A0008A6C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FB572BE27E3204A0008A6C7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5FB572C127E3204A0008A6C7 /* NextGenCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NextGenCards.xcdatamodel; sourceTree = "<group>"; };
+		5FC352CC27ECEA3400F9CB7E /* cardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FB572AF27E320450008A6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F80DEA727E3A0DF000DC7CD /* CodeScanner in Frameworks */,
+				5F80DEA227E341FD000DC7CD /* Drawer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F5E574127EA4D1800B1A415 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F6C1B5727EA57F5005CDCC4 /* secondView.swift */,
+				5FB572B727E320450008A6C7 /* ContentView.swift */,
+				5FC352CC27ECEA3400F9CB7E /* cardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F5E574227EA4D3200B1A415 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				5F80DEA827E3A0FB000DC7CD /* qrCodeScanner.swift */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		5FABC8E327EEF6A800EC69BB /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+				5FABC8E427EEF6D100EC69BB /* CardSmallView.swift */,
+				5FABC8E827EF287700EC69BB /* headerView.swift */,
+				5FABC8EA27EF2FA900EC69BB /* scannerView.swift */,
+				5FABC8EC27EF30CD00EC69BB /* drawerView.swift */,
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		5FB572A927E320450008A6C7 = {
+			isa = PBXGroup;
+			children = (
+				5FB572B427E320450008A6C7 /* NextGenCards */,
+				5FB572B327E320450008A6C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FB572B327E320450008A6C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FB572B227E320450008A6C7 /* NextGenCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FB572B427E320450008A6C7 /* NextGenCards */ = {
+			isa = PBXGroup;
+			children = (
+				5FB572B527E320450008A6C7 /* NextGenCardsApp.swift */,
+				5FABC8E327EEF6A800EC69BB /* ModelViews */,
+				5F5E574127EA4D1800B1A415 /* Views */,
+				5F5E574227EA4D3200B1A415 /* other */,
+				5FB572B927E3204A0008A6C7 /* Assets.xcassets */,
+				5FB572BE27E3204A0008A6C7 /* Persistence.swift */,
+				5FB572C027E3204A0008A6C7 /* NextGenCards.xcdatamodeld */,
+				5FB572BB27E3204A0008A6C7 /* Preview Content */,
+			);
+			path = NextGenCards;
+			sourceTree = "<group>";
+		};
+		5FB572BB27E3204A0008A6C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5FB572BC27E3204A0008A6C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FB572B127E320450008A6C7 /* NextGenCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB572C527E3204A0008A6C7 /* Build configuration list for PBXNativeTarget "NextGenCards" */;
+			buildPhases = (
+				5FB572AE27E320450008A6C7 /* Sources */,
+				5FB572AF27E320450008A6C7 /* Frameworks */,
+				5FB572B027E320450008A6C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NextGenCards;
+			packageProductDependencies = (
+				5F80DEA127E341FD000DC7CD /* Drawer */,
+				5F80DEA627E3A0DF000DC7CD /* CodeScanner */,
+			);
+			productName = NextGenCards;
+			productReference = 5FB572B227E320450008A6C7 /* NextGenCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FB572AA27E320450008A6C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5FB572B127E320450008A6C7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5FB572AD27E320450008A6C7 /* Build configuration list for PBXProject "NextGenCards" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FB572A927E320450008A6C7;
+			packageReferences = (
+				5F80DEA027E341FD000DC7CD /* XCRemoteSwiftPackageReference "swiftui-drawer" */,
+				5F80DEA527E3A0DF000DC7CD /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = 5FB572B327E320450008A6C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FB572B127E320450008A6C7 /* NextGenCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FB572B027E320450008A6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB572BD27E3204A0008A6C7 /* Preview Assets.xcassets in Resources */,
+				5FB572BA27E3204A0008A6C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FB572AE27E320450008A6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FABC8ED27EF30CD00EC69BB /* drawerView.swift in Sources */,
+				5FB572BF27E3204A0008A6C7 /* Persistence.swift in Sources */,
+				5FC352CD27ECEA3400F9CB7E /* cardView.swift in Sources */,
+				5F80DEA927E3A0FB000DC7CD /* qrCodeScanner.swift in Sources */,
+				5FB572B827E320450008A6C7 /* ContentView.swift in Sources */,
+				5FABC8E527EEF6D100EC69BB /* CardSmallView.swift in Sources */,
+				5FABC8E927EF287700EC69BB /* headerView.swift in Sources */,
+				5F6C1B5827EA57F5005CDCC4 /* secondView.swift in Sources */,
+				5FB572B627E320450008A6C7 /* NextGenCardsApp.swift in Sources */,
+				5FB572C227E3204A0008A6C7 /* NextGenCards.xcdatamodeld in Sources */,
+				5FABC8EB27EF2FA900EC69BB /* scannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5FB572C327E3204A0008A6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FB572C427E3204A0008A6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FB572C627E3204A0008A6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NextGenCards/Preview Content\"";
+				DEVELOPMENT_TEAM = JDN3NH8W9T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "NextGenCards Need camera access to scan the QR Codes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = .light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trial.NextGenCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FB572C727E3204A0008A6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NextGenCards/Preview Content\"";
+				DEVELOPMENT_TEAM = JDN3NH8W9T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "NextGenCards Need camera access to scan the QR Codes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = .light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trial.NextGenCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FB572AD27E320450008A6C7 /* Build configuration list for PBXProject "NextGenCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB572C327E3204A0008A6C7 /* Debug */,
+				5FB572C427E3204A0008A6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FB572C527E3204A0008A6C7 /* Build configuration list for PBXNativeTarget "NextGenCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB572C627E3204A0008A6C7 /* Debug */,
+				5FB572C727E3204A0008A6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5F80DEA027E341FD000DC7CD /* XCRemoteSwiftPackageReference "swiftui-drawer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maustinstar/swiftui-drawer";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		5F80DEA527E3A0DF000DC7CD /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5F80DEA127E341FD000DC7CD /* Drawer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F80DEA027E341FD000DC7CD /* XCRemoteSwiftPackageReference "swiftui-drawer" */;
+			productName = Drawer;
+		};
+		5F80DEA627E3A0DF000DC7CD /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F80DEA527E3A0DF000DC7CD /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		5FB572C027E3204A0008A6C7 /* NextGenCards.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5FB572C127E3204A0008A6C7 /* NextGenCards.xcdatamodel */,
+			);
+			currentVersion = 5FB572C127E3204A0008A6C7 /* NextGenCards.xcdatamodel */;
+			path = NextGenCards.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5FB572AA27E320450008A6C7 /* Project object */;
+}
